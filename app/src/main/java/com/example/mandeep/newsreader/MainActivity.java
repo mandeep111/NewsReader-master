@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
                     String articleURL = jsonObject.getString("url");
                     String articleContent = "";
 
-              
+
 
                     articleIds.add(Integer.valueOf(articleId));
                     articleTitles.put(Integer.valueOf(articleId), articleTitle);
